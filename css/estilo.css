@@ -1,0 +1,105 @@
+﻿
+
+
+#conteudo{
+	margin-top:-15px;
+	padding: 0;
+	background-color:#E1EAF2;
+	box-shadow:0px 2px 6px 4px grey;
+}
+
+#conteudo h4, #conteudo a:link,  #conteudo a:visited{
+	margin: 0;
+	padding: 0px;
+	color:#606060;
+	text-decoration: none
+}
+
+fieldset { 
+	border:1px solid #326C99;
+	width: 956px;
+
+	}
+
+article {
+	width: 965px;
+	margin-top:-10px;
+	padding:0;
+	text-align: justify;
+}
+
+ footer{ 
+	color: white;
+	font-size: 11px;
+	padding: 1px 0px;
+	margin-top: 1em; 
+	/*background-color:#273747;*/
+	font-family: Tahoma, Verdana, Arial, Sans-Serif, Times New Roman;
+	text-align: center;  
+ }
+
+ article label
+{
+    display: block;
+    padding: 10px 0 0 0;
+	font-size: 16px;
+	font-weight: bold;
+	color:#326C99;
+}
+
+article input[type=text],article input[type=password],article input[type=email], article select,article input[type=radio]
+{
+	padding: 5px;
+	margin-top: 7px;
+}
+ 
+.botao {
+	background-color: #273747;
+	color: white;
+	padding: 8px;
+	box-shadow: 2px 2px 1px #aaaaaa;
+	clear: both;
+	margin-top: 10px;
+	margin-left:0px;
+	border-radius: 8px;
+	-msie-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-weight: bold;
+	outline:none;
+}
+.botao:hover {
+  background: #326C99;
+}
+
+.table
+      {
+        border: 1px solid #4d1a00;
+		border-collapse: collapse;
+		width:100%;
+		margin-top: 7px;
+   }
+ .tabletd
+      {
+        border: 1px solid #4d1a00;
+		text-align:center;
+		font-family: Tahoma, Verdana, Arial, Sans-Serif, Times New Roman;
+		font-weight: bold;
+		color:#999966;
+   }
+ .td
+      {
+        border: 1px solid#4d1a00;
+		text-align:center;
+		font-family: Tahoma, Verdana, Arial, Sans-Serif, Times New Roman;
+		font-size: 14px;
+		color:#999966;
+   }
+ .th
+      {
+        border: 1px solid #4d1a00;
+   }
+
+
+
+
